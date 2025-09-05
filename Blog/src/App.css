@@ -1,0 +1,392 @@
+*{padding: 0;margin: 0;font-size: 14px;box-sizing: border-box;}
+body{font-family: 'Poppins', sans-serif;color: #000;}
+ul,ol{list-style: none;padding: 0;margin: 0;}
+a,a:hover{text-decoration: none;}
+input, select, button{outline: none;}
+.container{max-width: 1250px;}
+/* https://preview.themeforest.net/item/lets-blog-multipurpose-html-template/full_screen_preview/59332497 */
+
+/*============================Main CSS Starts here==================================*/
+
+nav.navbar img.logo{}
+ul.navbar-nav li{
+	margin: 0 0 0 40px;
+}
+ul.navbar-nav li a{
+	font-size: 13px;
+    color: #211160;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.carousel-item img{
+	width: 100%;
+	height: 600px;
+}
+.Sect_slider{
+	position:relative;
+}
+.Sect_slider::before{
+	content: '';
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #33333342;
+    z-index: 9;
+
+}
+
+.Sect_post{
+	background-color: #fff;
+	padding:50px 0;
+}
+.left_bx{
+	margin-right: 50px;
+}
+.title-heading{
+	text-align: center;
+	font-family: Lustria, Georgia, serif;
+}
+.title-heading h2{
+	
+    text-transform: uppercase;
+    text-align: center;
+    color: #464646;
+    font-weight: 200;
+}
+.title-heading p{
+	color: #be9656;
+    position: relative;
+    width: 25%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 36px;
+}
+.title-heading p span{
+	display: inline-block;
+    padding: 0 1.2em;
+    background: #fff;
+    position: relative;
+    z-index: 2;
+	font-style: italic;
+}
+.title-heading p::before{
+	content: "";
+    border-bottom: 1px solid #be9656;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 0;
+}
+.post_img{}
+.post_img img{
+	width: 100%;
+	height: 640px;
+}
+.text_dls{}
+.text_dls p{
+	color: #222;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    /* text-align: justify; */
+}
+.text_dls a{
+	font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: auto;
+    letter-spacing: 2px;
+    color: #be9656;
+}
+.post_info_cat {
+    position: relative;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    text-align: center;
+}
+.post_info_cat:before {
+    content: "";
+    border-bottom: 1px solid #e1e1e1;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 0;
+}
+.post_info_cat span {
+    display: inline-block;
+    padding: 0 1.2em;
+    background: #fff;
+    position: relative;
+    z-index: 2;
+}
+.post_info_cat a {
+    color: #222;
+}
+
+
+
+
+
+
+
+.title-heading2{
+	text-align: center;
+	font-family: Lustria, Georgia, serif;
+	margin: 20px 0;
+}
+.title-heading2 h2{
+	
+    text-transform: uppercase;
+    text-align: center;
+    color: #464646;
+    font-weight: 200;
+	font-size: 25px;
+}
+.title-heading2 p{
+	color: #be9656;
+    position: relative;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 36px;
+}
+.title-heading2 p span{
+	display: inline-block;
+    padding: 0 1.2em;
+    background: #fff;
+    position: relative;
+    z-index: 2;
+	font-style: italic;
+}
+.title-heading2 p::before{
+	content: "";
+    border-bottom: 1px solid #be9656;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 0;
+}
+
+.post_img2{}
+.post_img2 img{
+	width: 100%;
+	height: 350px;
+}
+.post_img3{}
+.post_img3 img{
+	width: 100%;
+	height: auto;
+}
+.page_right{}
+.sect_1{
+	padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #e1e1e1;
+    clear: both;
+    width: 100%;
+    float: left;
+	margin-bottom: 30px;
+}
+.sect_1 h2{
+	font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+	color: #222;
+	text-align: center;
+}
+.sect_2{
+	padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #e1e1e1;
+    clear: both;
+    width: 100%;
+    float: left;
+	background-color: #222;
+	margin-bottom: 30px;
+}
+.sect_2 h2{
+	    text-align: center;
+    font-size: 12px;
+    color: #eee;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+}
+.sect_2 input{
+	width: 100%;
+    height: 40px;
+    padding: 6px;
+    font-size: 14px;
+    border: 0;
+    border-radius: 2px;
+    margin-bottom: 12px;
+}
+.sect_2 button{
+	width: 100%;
+    height: 40px;
+    padding: 6px;
+    font-size: 14px;
+    border: 0;
+    border-radius: 2px;
+    margin-bottom: 12px;
+	background-color: #888888;
+    color: #ffffff;
+    border-color: #888888;
+	text-transform: uppercase;
+}
+.sect_3{
+	padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #e1e1e1;
+    clear: both;
+    width: 100%;
+    float: left;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.sect_3 h2{
+	   text-align: center;
+    font-size: 12px;
+    color: #222;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+}
+.sect_3 ul{}
+.sect_3 ul{}
+.sect_3 ul li{
+	display: inline-block;
+    margin: 0 10px;
+}
+.sect_3 ul li a{
+	font-size: 18px;
+    color: #222;
+}
+.sect_3 ul li a i{}
+
+
+.Custom_Ads{
+	padding: 0px;
+    box-sizing: border-box;
+    border: 0px solid #e1e1e1;
+    clear: both;
+    width: 100%;
+    float: left;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+
+.sect_4{
+	padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #e1e1e1;
+    clear: both;
+    width: 100%;
+    float: left;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.sect_4 h2{
+	   text-align: center;
+    font-size: 12px;
+    color: #222;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+}
+.sect_4 ul{}
+.sect_4 ul{}
+.sect_4 ul li{
+	display: block;
+    padding: 10px 0;
+    text-align: left;
+    border-bottom: 1px solid #e7e7e7;
+}
+.sect_4 ul li a{
+	font-size: 15px;
+    color: #222;
+    font-weight: 300;
+}
+.btn_login{
+	    margin: 0 0 0 30px;
+}
+.btn_login a{
+	background: linear-gradient(45deg, #0f3b8d, #082158c7);
+    padding: 10px 40px;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+/* =======================Section blog css starts here============================= */
+
+
+.sect_blog{}
+.login_dls{}
+.login_dls h1{}
+.login_dls h2{}
+.login_dls p{}
+
+.sect_blogpage{
+	background-color: #eee;
+	padding: 50px 0;
+}
+.blog_form{
+	    background: #fff;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px #304b8224;
+}
+.blog_form input, .blog_form select{
+	height: 44px;
+}
+/* =======================Section blog css ends here============================= */
+
+
+.footer{
+    background-color: #222222;
+    border-color: #444444;
+
+    width: 100%;
+    margin: auto;
+    padding-bottom: 50px;
+    word-wrap: break-word;
+    margin-bottom: 0;
+    padding-top: 50px;
+    float: left;
+}
+.footer p{}
+
+footer.footer {
+    background: #444444;
+    padding: 25px 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*============================Main CSS Ends here==================================*/

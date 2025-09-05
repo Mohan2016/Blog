@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Understanding React",
+    "author": "Jane Doe",
+    "content": "React is a JavaScript library for building user interfaces."
+  },
+  {
+    "title": "Learning Hooks",
+    "author": "John Smith",
+    "content": "Hooks let you use state and other features without writing a class."
+  }
+]

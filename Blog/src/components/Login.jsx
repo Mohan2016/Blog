@@ -1,0 +1,20 @@
+import React from 'react';
+// import Navbar from './components/Navbar'; // This line is okay too
+import Navbar from './Navbar'; // Assuming this is the correct path
+// import CreateBlogPost from './CreateBlogPost';
+import Footer from './Footer';
+import BlogManager from './BlogManager';
+
+const Login = () => {
+  return (
+    <>
+      <Navbar />
+      {/* <CreateBlogPost /> */}
+      <BlogManager />
+      <Footer />
+      {/* <h1>Login Page</h1> */}
+    </>
+  );
+};
+
+export default Login;
