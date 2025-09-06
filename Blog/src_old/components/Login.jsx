@@ -3,14 +3,14 @@ import React from 'react';
 import Navbar from './Navbar'; // Assuming this is the correct path
 // import CreateBlogPost from './CreateBlogPost';
 import Footer from './Footer';
-import BlogManager from './BlogManager';
+import BlogForm from './BlogForm';
 
 const Login = () => {
   return (
     <>
       <Navbar />
       {/* <CreateBlogPost /> */}
-      <BlogManager />
+      <BlogForm />
       <Footer />
       {/* <h1>Login Page</h1> */}
     </>

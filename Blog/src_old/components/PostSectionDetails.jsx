@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 // import './PostSection.css'; // Optional: for your styles
 import img3 from '../assets/images/3.jpg';
 // import img4 from '../assets/images/4.jpg';
@@ -7,10 +7,7 @@ import img6 from '../assets/images/banner300x250.png';
 import img8 from '../assets/images/photography_2.jpg';
 
 
-const PostSection = () => {
-
-   const [isExpanded, setIsExpanded] = useState(false); // ✅ Add state
-
+const PostSectionDetails = () => {
   return (
     <section className="Sect_post">
       <div className="container">
@@ -19,35 +16,33 @@ const PostSection = () => {
           <div className="col-lg-9 col-md-9 col-12">
             {/* Main Post */}
             <div className="left_bx">
-                          <div className="title-heading ">
-                            <h2>Beauty of Nature</h2>
-                            <p><span>July 12, 2025</span></p>
-                          </div>
-                          <div className="post_img wow animate__animated animate__slideInLeft">
-                            {/* <img src="/images/3.jpg" className="img-fluid" alt="Beauty of Nature" /> */}
-                            <img src={img3} alt="" className="img-fluid" />
-                          </div>
-                          <div className="text_dls mt-5">
-                            <p>
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry...
-                              {isExpanded && (
-                                <>
-                                  <br />
-                                  Here is some more detailed content that becomes visible when you click "Read More".
-                                  You can expand this as needed with any HTML or components.
-                                </>
-                              )}
-                            </p>
-            
-                            {/* ✅ Toggle Button */}
-                            <button
-                              className="btn btn-primary mt-3"
-                              onClick={() => setIsExpanded(!isExpanded)}
-                            >
-                              {isExpanded ? 'Hide' : 'Read More'}
-                            </button>
-                          </div>
-                        </div>
+              <div className="title-heading ">
+                <h2>Beauty of Nature</h2>
+                <p><span>July 12, 2025</span></p>
+              </div>
+              <div className="post_img wow animate__animated animate__slideInLeft">
+                {/* <img src="/images/3.jpg" className="img-fluid" alt="Beauty of Nature" /> */}
+                <img src={img3} alt="" className="img-fluid"  />
+              </div>
+              <div className="text_dls mt-5">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. </p>
+              </div>
+            </div>
 
             <div className="post_info_cat">
               <span>
@@ -151,4 +146,4 @@ const PostSection = () => {
   );
 };
 
-export default PostSection;
+export default PostSectionDetails;
