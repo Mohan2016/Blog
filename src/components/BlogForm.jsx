@@ -2,7 +2,7 @@ import React from 'react';
 // import Navbar from './components/Navbar'; // This line is okay too
 // import Navbar from './Navbar';
 // import CreateBlogPost from './CreateBlogPost';
-// import Footer from './Footer';
+
 import BlogManager from './BlogManager';
 
 const BlogForm = () => {
