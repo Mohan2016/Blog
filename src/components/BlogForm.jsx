@@ -1,6 +1,5 @@
 import React from 'react';
 // import Navbar from './components/Navbar'; // This line is okay too
-// import Navbar from './Navbar';
 // import CreateBlogPost from './CreateBlogPost';
 
 import BlogManager from './BlogManager';
